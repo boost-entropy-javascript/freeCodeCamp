@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { connect } from 'react-redux';
 import { createSelector } from 'reselect';
 import { Grid } from '@freecodecamp/react-bootstrap';
@@ -129,7 +129,7 @@ export function ShowSettings(props: IShowSettingsProps): JSX.Element {
   }
 
   return (
-    <Fragment>
+    <>
       <Helmet title={`${t('buttons.settings')} | freeCodeCamp.org`} />
       <Grid>
         <main>
@@ -197,7 +197,7 @@ export function ShowSettings(props: IShowSettingsProps): JSX.Element {
           <DangerZone />
         </main>
       </Grid>
-    </Fragment>
+    </>
   );
 }
 

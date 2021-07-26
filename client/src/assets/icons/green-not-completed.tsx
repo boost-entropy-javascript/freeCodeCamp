@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { useTranslation } from 'react-i18next';
 
 function GreenNotCompleted(
@@ -7,7 +7,7 @@ function GreenNotCompleted(
   const { t } = useTranslation();
 
   return (
-    <Fragment>
+    <>
       <span className='sr-only'>{t('icons.not-passed')}</span>
       <svg
         height='50'
@@ -29,7 +29,7 @@ function GreenNotCompleted(
           />
         </g>
       </svg>
-    </Fragment>
+    </>
   );
 }
 
