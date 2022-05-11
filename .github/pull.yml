@@ -1,0 +1,6 @@
+version: "1"
+rules:
+  - base: main
+    upstream: freeCodeCamp:main
+    mergeMethod: merge
+    mergeUnstable: true
