@@ -62,16 +62,32 @@ Cypress.Commands.add('toggleAll', () => {
   cy.get('#honesty-policy').find('button').click().wait(300);
 });
 
+Cypress.Commands.add('goToSettings', () => {
+  cy.visit('/settings');
+
+  // Setting aliases here
+  cy.get('[data-cy=username-input]').as('usernameInput');
+  cy.get('[data-cy=username-form]').as('usernameForm');
+});
+
+Cypress.Commands.add('typeUsername', username => {
+  cy.get('@usernameInput')
+    .clear({ force: true })
+    .type(username, { force: true });
+});
+
 Cypress.Commands.add('resetUsername', () => {
   cy.visit('/settings');
 
-  cy.get('@usernameInput')
-    .clear({ force: true })
-    .type('developmentuser', { force: true });
+  cy.typeUsername('developmentuser');
 
   cy.contains('Username is available');
 
-  cy.get('@usernameInput').type('{enter}', { force: true, release: false });
+  // temporary fix until https://github.com/cypress-io/cypress/issues/20562 is fixed
+  cy.contains(`Save`).click();
+
+  // revert to this when it is
+  // cy.get('@usernameInput').type('{enter}', { force: true, release: false });
 
   cy.contains('Account Settings for developmentuser').should('be.visible');
 });
