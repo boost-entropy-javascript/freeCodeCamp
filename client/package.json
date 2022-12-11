@@ -123,15 +123,15 @@
     "store": "2.0.12",
     "stream-browserify": "3.0.0",
     "tone": "14.7.77",
-    "typescript": "4.9.3",
+    "typescript": "4.9.4",
     "util": "0.12.5",
     "uuid": "8.3.2",
     "validator": "13.7.0"
   },
   "devDependencies": {
     "@babel/types": "7.20.5",
-    "@codesee/babel-plugin-instrument": "0.451.0",
-    "@codesee/tracker": "0.451.0",
+    "@codesee/babel-plugin-instrument": "0.457.0",
+    "@codesee/tracker": "0.457.0",
     "@testing-library/jest-dom": "5.16.5",
     "@testing-library/react": "12.1.5",
     "autoprefixer": "10.4.13",
