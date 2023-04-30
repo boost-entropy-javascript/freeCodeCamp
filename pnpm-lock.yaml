@@ -159,8 +159,8 @@ importers:
         specifier: 4.8.0
         version: 4.8.0
       yargs:
-        specifier: 17.7.1
-        version: 17.7.1
+        specifier: 17.7.2
+        version: 17.7.2
 
   api:
     dependencies:
@@ -437,8 +437,8 @@ importers:
         specifier: ^7.20.13
         version: 7.21.0
       '@babel/standalone':
-        specifier: 7.21.6
-        version: 7.21.6
+        specifier: 7.21.7
+        version: 7.21.7
       '@fortawesome/fontawesome-svg-core':
         specifier: 6.4.0
         version: 6.4.0
@@ -635,8 +635,8 @@ importers:
         specifier: 2.0.0
         version: 2.0.0(react@16.14.0)
       react-i18next:
-        specifier: 12.2.0
-        version: 12.2.0(i18next@22.4.15)(react-dom@16.14.0)(react@16.14.0)
+        specifier: 12.2.2
+        version: 12.2.2(i18next@22.4.15)(react-dom@16.14.0)(react@16.14.0)
       react-instantsearch-core:
         specifier: 6.39.1
         version: 6.39.1(algoliasearch@4.17.0)(react@16.14.0)
@@ -5834,8 +5834,8 @@ packages:
     dependencies:
       regenerator-runtime: 0.13.11
 
-  /@babel/standalone@7.21.6:
-    resolution: {integrity: sha512-F8vMWdYmO6I4HeOALCfVujOY8vX5UYPFkO2oxJ8qDxxVfMYShvOHgl0E+60VTccNickoQBv+mD/dd/rQeigWoQ==}
+  /@babel/standalone@7.21.7:
+    resolution: {integrity: sha512-0SINMPlXMqJVZuJmookfaNr5NQiW5+vkHJfnEf+5+2vSf5PxuFAwnjOnRGgLcW9wVv4xUBQvKeKBtYv/lqC/xA==}
     engines: {node: '>=6.9.0'}
 
   /@babel/template@7.20.7:
@@ -18512,7 +18512,7 @@ packages:
       '@babel/plugin-proposal-optional-chaining': 7.17.12(@babel/core@7.21.5)
       '@babel/plugin-transform-react-jsx': 7.21.0(@babel/core@7.21.5)
       '@babel/runtime': 7.21.0
-      '@babel/standalone': 7.21.6
+      '@babel/standalone': 7.21.7
       '@babel/template': 7.20.7
       '@babel/types': 7.21.5
       '@graphql-tools/schema': 7.1.5(graphql@15.8.0)
@@ -21109,7 +21109,7 @@ packages:
       jest-util: 29.5.0
       jest-validate: 29.5.0
       prompts: 2.4.2
-      yargs: 17.7.1
+      yargs: 17.7.2
     transitivePeerDependencies:
       - '@types/node'
       - supports-color
@@ -27694,8 +27694,8 @@ packages:
       react: 16.14.0
     dev: false
 
-  /react-i18next@12.2.0(i18next@22.4.15)(react-dom@16.14.0)(react@16.14.0):
-    resolution: {integrity: sha512-5XeVgSygaGfyFmDd2WcXvINRw2WEC1XviW1LXY/xLOEMzsCFRwKqfnHN+hUjla8ZipbVJR27GCMSuTr0BhBBBQ==}
+  /react-i18next@12.2.2(i18next@22.4.15)(react-dom@16.14.0)(react@16.14.0):
+    resolution: {integrity: sha512-KBB6buBmVKXUWNxXHdnthp+38gPyBT46hJCAIQ8rX19NFL/m2ahte2KARfIDf2tMnSAL7wwck6eDOd/9zn6aFg==}
     peerDependencies:
       i18next: '>= 19.0.0'
       react: '>= 16.8.0'
@@ -33330,8 +33330,8 @@ packages:
       y18n: 5.0.8
       yargs-parser: 20.2.9
 
-  /yargs@17.7.1:
-    resolution: {integrity: sha512-cwiTb08Xuv5fqF4AovYacTFNxk62th7LKJ6BL9IGUpTJrWoU7/7WdQGTP2SjKf1dUNBGzDd28p/Yfs/GI6JrLw==}
+  /yargs@17.7.2:
+    resolution: {integrity: sha512-7dSzzRQ++CKnNI/krKnYRV7JKKPUXMEh61soaHKg9mrWEhzFWhFnxPxGl+69cD1Ou63C13NUPCnmIcrvqCuM6w==}
     engines: {node: '>=12'}
     dependencies:
       cliui: 8.0.1
