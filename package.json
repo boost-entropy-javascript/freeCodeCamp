@@ -97,7 +97,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "dotenv": "16.0.3",
+    "dotenv": "16.1.4",
     "invariant": "2.2.4",
     "pm2": "^5.2.2"
   },
@@ -112,7 +112,7 @@
     "@testing-library/user-event": "13.5.0",
     "@types/jest": "29.5.2",
     "@types/lodash": "4.14.195",
-    "@types/node": "18.16.0",
+    "@types/node": "18.16.16",
     "@types/store": "2.0.2",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "babel-jest": "29.5.0",
