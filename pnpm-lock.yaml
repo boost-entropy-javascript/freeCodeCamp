@@ -225,6 +225,9 @@ importers:
       fastify-plugin:
         specifier: 4.5.1
         version: 4.5.1
+      joi:
+        specifier: 17.9.2
+        version: 17.9.2
       jsonwebtoken:
         specifier: 9.0.2
         version: 9.0.2
@@ -835,20 +838,20 @@ importers:
         specifier: 16.9.20
         version: 16.9.20
       '@types/react-gtm-module':
-        specifier: 2.0.1
-        version: 2.0.1
+        specifier: 2.0.2
+        version: 2.0.2
       '@types/react-helmet':
         specifier: 6.1.8
         version: 6.1.8
       '@types/react-instantsearch-core':
-        specifier: 6.26.5
-        version: 6.26.5
+        specifier: 6.26.6
+        version: 6.26.6
       '@types/react-instantsearch-dom':
-        specifier: 6.12.4
-        version: 6.12.4
+        specifier: 6.12.5
+        version: 6.12.5
       '@types/react-redux':
-        specifier: 7.1.27
-        version: 7.1.27
+        specifier: 7.1.28
+        version: 7.1.28
       '@types/react-responsive':
         specifier: 8.0.6
         version: 8.0.6
@@ -1301,8 +1304,8 @@ importers:
         specifier: 3.5.25
         version: 3.5.25
       '@types/lodash-es':
-        specifier: 4.17.9
-        version: 4.17.9
+        specifier: 4.17.10
+        version: 4.17.10
       babel-loader:
         specifier: 8.3.0
         version: 8.3.0(@babel/core@7.23.2)(webpack@5.88.2)
@@ -10628,6 +10631,12 @@ packages:
       '@types/react': 16.14.48
     dev: true
 
+  /@types/lodash-es@4.17.10:
+    resolution: {integrity: sha512-YJP+w/2khSBwbUSFdGsSqmDvmnN3cCKoPOL7Zjle6s30ZtemkkqhjVfFqGwPN7ASil5VyjE2GtyU/yqYY6mC0A==}
+    dependencies:
+      '@types/lodash': 4.14.200
+    dev: true
+
   /@types/lodash-es@4.17.9:
     resolution: {integrity: sha512-ZTcmhiI3NNU7dEvWLZJkzG6ao49zOIjEgIE0RgV7wbPxU0f2xT3VSAHw2gmst8swH6V0YkLRGp4qPlX/6I90MQ==}
     dependencies:
@@ -10764,8 +10773,8 @@ packages:
       '@types/react': 16.14.48
     dev: true
 
-  /@types/react-gtm-module@2.0.1:
-    resolution: {integrity: sha512-T/DN9gAbCYk5wJ1nxf4pSwmXz4d1iVjM++OoG+mwMfz9STMAotGjSb65gJHOS5bPvl6vLSsJnuC+y/43OQrltg==}
+  /@types/react-gtm-module@2.0.2:
+    resolution: {integrity: sha512-1BwWKEtpbUB3lojX6SlQOH32CKEc/F4kKxUToSYuraeN9I0tgqtcoLC1TGDHB3X6dSmyUyOz5ZHADtucpUeyzw==}
     dev: true
 
   /@types/react-helmet@6.1.8:
@@ -10774,23 +10783,23 @@ packages:
       '@types/react': 16.14.48
     dev: true
 
-  /@types/react-instantsearch-core@6.26.5:
-    resolution: {integrity: sha512-JnyKjJqcD7AJNWrgf6tkK72iqR2p0v8VLeP3x5ZCdiD78+GDYNBXOWj7Sj7l1zGLtTVgNJcIuCTvNKuH0BY72w==}
+  /@types/react-instantsearch-core@6.26.6:
+    resolution: {integrity: sha512-1OTGqQlcPjWsDnd+Hx/xMucHRPjDTUdVk3XkCMAmwVimo9jRneEnfIYqjsKnO2odQdIXe67oqYb9AdJZHveMTQ==}
     dependencies:
       '@types/react': 16.14.48
       algoliasearch: 4.20.0
       algoliasearch-helper: 3.14.2(algoliasearch@4.20.0)
     dev: true
 
-  /@types/react-instantsearch-dom@6.12.4:
-    resolution: {integrity: sha512-J5CeXqg5Iq7KWVeVnLBO8Yk52+joJRknipC2RHiTVzEM+c5xa58EqJH3Y9Whrjbz/USZd62XlL852lt0T8zxUA==}
+  /@types/react-instantsearch-dom@6.12.5:
+    resolution: {integrity: sha512-By+i8qih27ku557LRtNzBNQDOyb7bB0P4ihnh7BDj7eGeZ60XTjoTzJpezGueXSlOWHR0YQgoY5Y+fFfHb+AIQ==}
     dependencies:
       '@types/react': 16.14.48
-      '@types/react-instantsearch-core': 6.26.5
+      '@types/react-instantsearch-core': 6.26.6
     dev: true
 
-  /@types/react-redux@7.1.27:
-    resolution: {integrity: sha512-xj7d9z32p1K/eBmO+OEy+qfaWXtcPlN8f1Xk3Ne0p/ZRQ867RI5bQ/bpBtxbqU1AHNhKJSgGvld/P2myU2uYkg==}
+  /@types/react-redux@7.1.28:
+    resolution: {integrity: sha512-EQr7cChVzVUuqbA+J8ArWK1H0hLAHKOs21SIMrskKZ3nHNeE+LFYA+IsoZGhVOT8Ktjn3M20v4rnZKN3fLbypw==}
     dependencies:
       '@types/hoist-non-react-statics': 3.3.2
       '@types/react': 16.14.48
@@ -27359,7 +27368,7 @@ packages:
         optional: true
     dependencies:
       '@babel/runtime': 7.20.13
-      '@types/react-redux': 7.1.27
+      '@types/react-redux': 7.1.28
       hoist-non-react-statics: 3.3.2
       loose-envify: 1.4.0
       prop-types: 15.8.1
