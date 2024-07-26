@@ -33,7 +33,6 @@ import ChallengeTitle from '../components/challenge-title';
 import CompletionModal from '../components/completion-modal';
 import HelpModal from '../components/help-modal';
 import ShortcutsModal from '../components/shortcuts-modal';
-import Notes from '../components/notes';
 import Output from '../components/output';
 import Preview, { type PreviewProps } from '../components/preview';
 import ProjectPreviewModal from '../components/project-preview-modal';
@@ -177,11 +176,11 @@ const defaultOutput = `
 */`;
 
 function ShowClassic({
-  challengeFiles: reduxChallengeFiles,
+  challengeFiles,
   data: {
     challengeNode: {
       challenge: {
-        challengeFiles,
+        challengeFiles: seedChallengeFiles,
         block,
         title,
         description,
@@ -245,18 +244,16 @@ function ShowClassic({
     challengeTypes.python
   ].includes(challengeType);
   const getLayoutState = () => {
-    const reflexLayout = store.get(REFLEX_LAYOUT) as ReflexLayout;
-
-    // Validate if user has not done any resize of the panes
-    if (!reflexLayout) return BASE_LAYOUT;
+    const reflexLayout = store.get(REFLEX_LAYOUT) as ReflexLayout | null;
 
     // Check that the layout values stored are valid (exist in base layout). If
     // not valid, it will fallback to the base layout values and be set on next
     // user resize.
-    const isValidLayout = isContained(
-      Object.keys(BASE_LAYOUT),
-      Object.keys(reflexLayout)
-    );
+    const isValidLayout =
+      reflexLayout &&
+      isContained(Object.keys(BASE_LAYOUT), Object.keys(reflexLayout));
+
+    if (!isValidLayout) store.remove(REFLEX_LAYOUT);
 
     return isValidLayout ? reflexLayout : BASE_LAYOUT;
   };
@@ -267,25 +264,17 @@ function ShowClassic({
   const [layout, setLayout] = useState(getLayoutState());
 
   const onStopResize = (event: HandlerProps) => {
+    setResizing(false);
+    // 'name' is used to identify the Elements whose layout is stored.
     const { name, flex } = event.component.props;
 
-    // Only interested in tracking layout updates for ReflexElement's
-    if (!name) {
-      setResizing(false);
-      return;
-    }
-
-    // Forcing a state update with the value of each panel since on stop resize
-    // is executed per each panel.
-    if (typeof layout === 'object') {
-      setLayout({
-        ...layout,
-        [name]: { flex }
-      });
-    }
-    setResizing(false);
-
-    store.set(REFLEX_LAYOUT, layout);
+    // onStopResize can be called multiple times before the state changes, so
+    // we need an updater function to ensure all updates are applied.
+    setLayout(l => {
+      const newLayout = name ? { ...l, [name]: { flex } } : l;
+      store.set(REFLEX_LAYOUT, newLayout);
+      return newLayout;
+    });
   };
 
   const setHtmlHeight = () => {
@@ -364,7 +353,7 @@ function ShowClassic({
     });
 
     createFiles(
-      mergeChallengeFiles(challengeFiles, savedChallenge?.challengeFiles)
+      mergeChallengeFiles(seedChallengeFiles, savedChallenge?.challengeFiles)
     );
 
     initTests(tests);
@@ -417,9 +406,9 @@ function ShowClassic({
     isUsingKeyboardInTablist
   }: RenderEditorArgs) => {
     return (
-      reduxChallengeFiles && (
+      challengeFiles && (
         <MultifileEditor
-          challengeFiles={reduxChallengeFiles}
+          challengeFiles={challengeFiles}
           block={block}
           superBlock={superBlock}
           containerRef={containerRef}
@@ -458,12 +447,11 @@ function ShowClassic({
             })}
             guideUrl={getGuideUrl({ forumTopicId, title })}
             hasEditableBoundaries={hasEditableBoundaries}
-            hasNotes={!!notes}
             hasPreview={showPreview}
             instructions={renderInstructionsPanel({
               showToolPanel: false
             })}
-            notes={<Notes notes={notes} />}
+            notes={notes}
             onPreviewResize={onPreviewResize}
             preview={
               <StepPreview
@@ -484,21 +472,20 @@ function ShowClassic({
         )}
         {!isMobile && (
           <DesktopLayout
-            challengeFiles={reduxChallengeFiles}
+            challengeFiles={challengeFiles}
             challengeType={challengeType}
             editor={renderEditor({
               isMobileLayout: false,
               isUsingKeyboardInTablist: usingKeyboardInTablist
             })}
             hasEditableBoundaries={hasEditableBoundaries}
-            hasNotes={!!notes}
             hasPreview={showPreview}
             instructions={renderInstructionsPanel({
               showToolPanel: true
             })}
             isFirstStep={isFirstStep}
             layoutState={layout}
-            notes={<Notes notes={notes} />}
+            notes={notes}
             onPreviewResize={onPreviewResize}
             preview={
               <StepPreview
