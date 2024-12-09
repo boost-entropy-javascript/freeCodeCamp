@@ -523,6 +523,7 @@
           "blocks": [
             { "dashedName": "lecture-understanding-asynchronous-programming" },
             { "dashedName": "workshop-fcc-authors-page" },
+            { "dashedName": "lab-weather-app" },
             { "dashedName": "review-asynchronous-javascript" },
             { "dashedName": "quiz-asynchronous-javascript" }
           ]
@@ -545,6 +546,7 @@
               "dashedName": "lecture-introduction-to-javascript-libraries-and-frameworks"
             },
             { "dashedName": "lecture-working-with-data-in-react" },
+            { "dashedName": "review-react-basics" },
             { "dashedName": "quiz-react-basics" }
           ]
         },
