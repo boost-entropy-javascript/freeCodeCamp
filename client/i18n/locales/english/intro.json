@@ -3305,6 +3305,13 @@
           "In these lecture videos, you will get an introduction to JavaScript libraries and frameworks."
         ]
       },
+      "workshop-reusable-mega-navbar": {
+        "title": "Build a Reusable Mega Navbar",
+        "intro": [
+          "In the previous lecture videos, you learned how to work with components in React.",
+          "In this workshop, you will build a reusable Navbar component using React."
+        ]
+      },
       "oxiv": { "title": "260", "intro": [] },
       "lab-reusable-footer": {
         "title": "Build a Reusable Footer",
@@ -3317,7 +3324,12 @@
         ]
       },
       "cdfr": { "title": "263", "intro": [] },
-      "bgtd": { "title": "264", "intro": [] },
+      "lab-mood-board": {
+        "title": "Build a Mood Board",
+        "intro": [
+          "In this lab, you will create a mood board using a React with props."
+        ]
+      },
       "review-react-basics": {
         "title": "React Basics Review",
         "intro": [

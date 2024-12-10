@@ -550,6 +550,8 @@
             },
             { "dashedName": "lab-reusable-footer" },
             { "dashedName": "lecture-working-with-data-in-react" },
+            { "dashedName": "workshop-reusable-mega-navbar" },
+            { "dashedName": "lab-mood-board" },
             { "dashedName": "review-react-basics" },
             { "dashedName": "quiz-react-basics" }
           ]
