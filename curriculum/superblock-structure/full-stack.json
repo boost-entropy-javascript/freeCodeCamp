@@ -376,6 +376,7 @@
             {
               "dashedName": "lecture-understanding-modules-imports-and-exports"
             },
+            { "dashedName": "lab-password-generator" },
             { "dashedName": "review-javascript-fundamentals" },
             { "dashedName": "quiz-javascript-fundamentals" }
           ]
@@ -518,6 +519,7 @@
           "blocks": [
             { "dashedName": "lecture-understanding-functional-programming" },
             { "dashedName": "workshop-recipe-ingredient-converter" },
+            { "dashedName": "lab-sorting-visualizer" },
             { "dashedName": "review-javascript-functional-programming" },
             { "dashedName": "quiz-javascript-functional-programming" }
           ]
