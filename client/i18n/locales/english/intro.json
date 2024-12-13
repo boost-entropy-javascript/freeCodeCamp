@@ -1568,23 +1568,36 @@
   },
   "b1-english-for-developers": {
     "title": "B1 English for Developers (Beta)",
-    "intro": ["Placeholder intro"],
+    "intro": [
+      "In this English for Developers Curriculum, you'll learn the essentials of English communication. This will follow the B1 level of the Common European Framework of Reference (CEFR). And we've focused on vocabulary that is particularly useful for developers.",
+      "It will help you strengthen your foundational skills while introducing more complex grammar and usage. You'll learn how to describe places and things, share past experiences, and confidently use tenses like Present Perfect and Future. Practical communication strategies are included as well, such as managing conversations, expressing opinions, and building agreement or disagreement in discussions.",
+      "You'll also focus on applying these skills in professional and technical settings. You'll practice vocabulary and phrases essential for developers, such as describing code, participating in stand-up meetings, and discussing tech trends. Advanced topics include conditionals, comparative structures, and conversation management, so you can prepare for real-world interactions in the tech industry.",
+      "This entire B1-level curriculum includes 73 different dialogues. Each is designed to build your vocabulary and boost your confidence when speaking in a professional tech setting."
+    ],
     "blocks": {
       "learn-how-to-describe-places-and-events": {
         "title": "Learn How to Describe Places and Events",
-        "intro": [""]
+        "intro": [
+          "This course will show you ways of talking about places and events conversationally."
+        ]
       },
       "learn-how-to-talk-about-past-experiences": {
         "title": "Learn How to Talk About Past Experiences",
-        "intro": ["", ""]
+        "intro": [
+          "In this course, you will learn how to share experiences that you had in the past."
+        ]
       },
       "learn-how-to-talk-about-past-activities": {
         "title": "Learn How to Talk About Past Activities",
-        "intro": ["", ""]
+        "intro": [
+          "In this course, you will learn how talk about things that you did."
+        ]
       },
       "learn-present-perfect-while-talking-about-accessibility": {
         "title": "Learn Present Perfect while Talking About Accessibility",
-        "intro": ["", ""]
+        "intro": [
+          "In this course, you will learn to use the Present Perfect structure and learn a bit more about accessibility."
+        ]
       },
       "learn-how-to-plan-future-events": {
         "title": "Learn How to Plan Future Events",
@@ -1696,7 +1709,8 @@
       "javascript": "JavaScript",
       "frontend-libraries": "Front End Libraries",
       "relational-databases": "Relational Databases",
-      "security-and-privacy": "Security and Privacy"
+      "backend-javascript": "Backend JavaScript",
+      "python": "Python"
     },
     "modules": {
       "getting-started-with-freecodecamp": "Getting Started with freeCodeCamp",
@@ -3042,7 +3056,12 @@
           "You'll also practice basic regular expressions, template literals, the <code>addEventListener()</code> method, and more."
         ]
       },
-      "egkv": { "title": "213", "intro": [] },
+      "lab-customer-complaint-form": {
+        "title": "Build a Customer Complaint Form",
+        "intro": [
+          "For this lab, you will use JavaScript to validate a customer complaint form."
+        ]
+      },
       "review-form-validation-with-javascript": {
         "title": "Form Validation with JavaScript Review",
         "intro": [
@@ -3329,7 +3348,12 @@
           "In these lecture videos, you will learn about working with data in React."
         ]
       },
-      "cdfr": { "title": "263", "intro": [] },
+      "workshop-reusable-profile-card-component": {
+        "title": "Build a Reusable Profile Card Component",
+        "intro": [
+          "In this workshop, you will learn how to work with props by building a reusable profile card component."
+        ]
+      },
       "lab-mood-board": {
         "title": "Build a Mood Board",
         "intro": [
