@@ -25,7 +25,7 @@ If the substring is found within the string, the method returns the string other
 
 ---
 
-If the substring is found within the string, the method returns `true` otherwise, it returns and empty string.
+If the substring is found within the string, the method returns `true` otherwise, it returns an empty string.
 
 ---
 
@@ -165,7 +165,7 @@ It displays a confirmation box with a message.
 
 #### --answer--
 
-It displays a dialog box that prompts the user for input.
+It displays a dialog box that waits for the user input.
 
 ### --question--
 
@@ -463,7 +463,7 @@ How do you remove whitespace from the beginning and end of a string?
 
 #### --text--
 
-Which of the following is the correct syntax for escaping strings?
+Which of the following is the correct syntax for escaping quotes?
 
 #### --distractors--
 
