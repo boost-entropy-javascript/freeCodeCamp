@@ -6,7 +6,7 @@ on:
 jobs:
   setup-jobs:
     name: Setup Jobs
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     outputs:
       site_tld: ${{ steps.setup.outputs.site_tld }} # org, dev
       tgt_env_short: ${{ steps.setup.outputs.tgt_env_short }} # prd, stg
@@ -31,10 +31,7 @@ jobs:
   api:
     name: API (Legacy) - [${{ needs.setup-jobs.outputs.tgt_env_short }}]
     needs: [setup-jobs]
-    runs-on: ubuntu-24.04
-    strategy:
-      matrix:
-        node-version: [20]
+    runs-on: ubuntu-22.04
     permissions:
       deployments: write
       contents: read
@@ -121,7 +118,7 @@ jobs:
   client:
     name: Clients - [${{ needs.setup-jobs.outputs.tgt_env_short }}] [${{ matrix.lang-name-short }}]
     needs: [setup-jobs, api]
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-22.04
     strategy:
       matrix:
         node-version: [20]
@@ -175,8 +172,6 @@ jobs:
 
       - name: Setup pnpm
         uses: pnpm/action-setup@a3252b78c470c02df07e9d59298aecedc3ccdd6d #v3.0.0
-        with:
-          version: 9
 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@60edb5dd545a775178f52524783378180af0d1f8 # v4.0.2
