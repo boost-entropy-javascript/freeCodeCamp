@@ -18,7 +18,6 @@ import {
 import { stringifyDonationEvents } from '../utils/analytics-strings';
 import { stripe } from '../utils/stripe';
 import { PaymentProvider } from '../../../shared/config/donation-settings';
-import { chapterBasedSuperBlocks } from '../../../shared/config/curriculum';
 import {
   getSessionChallengeData,
   saveCurrentCount
@@ -60,7 +59,9 @@ function* showDonateModalSaga() {
   if (shouldShowModal) {
     yield delay(200);
     yield put(openDonationModal());
-    sessionStorage.setItem(MODAL_SHOWN_KEY, Date.now());
+    if (!donatableSectionRecentlyCompleted) {
+      sessionStorage.setItem(MODAL_SHOWN_KEY, Date.now());
+    }
     yield take(appTypes.closeDonationModal);
     if (!donatableSectionRecentlyCompleted) {
       yield call(saveCurrentCount);
@@ -201,7 +202,7 @@ export function* updateCardSaga() {
 
     if (!sessionId) throw new Error('No sessionId');
     (yield stripe).redirectToCheckout({ sessionId });
-  } catch (error) {
+  } catch {
     yield put(updateCardError(updateCardErrorMessage));
   }
 }
