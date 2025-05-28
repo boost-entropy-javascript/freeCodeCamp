@@ -2017,6 +2017,24 @@
           "In these lecture videos, you will learn about accessibility and its importance, assistive tools for people with disabilities, HTML attributes that let you create inclusive websites, accessibility best practices, and much more."
         ]
       },
+      "lecture-accessible-tables-forms": {
+        "title": "Working with Accessible Tables and Forms",
+        "intro": [
+          "In these lecture videos, you will learn about how to create accessible tables and forms."
+        ]
+      },
+      "lecture-introduction-to-aria": {
+        "title": "Introduction to ARIA",
+        "intro": [
+          "In these lecture videos, you will learn about working with ARIA roles."
+        ]
+      },
+      "lecture-accessible-media-elements": {
+        "title": "Working with Accessible Media Elements",
+        "intro": [
+          "In these lecture videos, you will learn about how to create accessible links, audio and video content."
+        ]
+      },
       "lab-checkout-page": {
         "title": "Build a Checkout Page",
         "intro": [
@@ -2925,6 +2943,18 @@
         "intro": [
           "In this lab, you'll build a factorial calculator.",
           "You'll practice using loops and conditionals to calculate the factorial of a number."
+        ]
+      },
+      "lab-mutations": {
+        "title": "Implement the Mutations Algorithm",
+        "intro": [
+          "In this lab, you will practice iterating over two different strings to compare their characters."
+        ]
+      },
+      "lab-chunky-monkey": {
+        "title": "Implement the Chunky Monkey Algorithm",
+        "intro": [
+          "In this lab, you will practice dividing an array into smaller arrays with the technique of your choice."
         ]
       },
       "review-javascript-loops": {
