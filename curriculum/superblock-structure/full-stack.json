@@ -613,6 +613,9 @@
               "dashedName": "lab-leap-year-calculator"
             },
             {
+              "dashedName": "lab-truncate-string"
+            },
+            {
               "dashedName": "review-javascript-functions"
             },
             {
@@ -1058,6 +1061,7 @@
             {
               "dashedName": "lecture-understanding-effects-and-referencing-values-in-react"
             },
+            { "dashedName": "workshop-fruit-search-app" },
             { "dashedName": "lab-color-picker" },
             {
               "dashedName": "review-react-state-and-hooks"
@@ -1076,6 +1080,9 @@
             },
             {
               "dashedName": "lecture-working-with-data-fetching-and-memoization-in-react"
+            },
+            {
+              "dashedName": "workshop-shopping-list-app"
             },
             {
               "dashedName": "lab-currency-converter"
