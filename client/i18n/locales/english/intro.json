@@ -3232,6 +3232,12 @@
           "In this workshop, you'll review how to work with JavaScript loops by building a sentence analyzer app."
         ]
       },
+      "lab-longest-word-in-a-string": {
+        "title": "Build a Longest Word Finder App",
+        "intro": [
+          "In this lab, you will use JavaScript loops to find the length of the longest word in the given sentence."
+        ]
+      },
       "lab-factorial-calculator": {
         "title": "Build a Factorial Calculator ",
         "intro": [
@@ -4238,7 +4244,7 @@
         "title": "Classes and Objects Review",
         "intro": [
           "Before you're quizzed on classes and objects, you should review what you've learned about them.",
-          "[Add more details]"
+          "Open up this page to review concepts like how classes work, what are objects, methods, attributes, special methods and more."
         ]
       },
       "quiz-classes-and-objects": {
