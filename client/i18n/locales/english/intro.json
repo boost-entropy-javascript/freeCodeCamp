@@ -3105,6 +3105,12 @@
           "In this workshop, you will review your knowledge of functions by building a calculator."
         ]
       },
+      "lab-boolean-check": {
+        "title": "Build a Boolean Check Function",
+        "intro": [
+          "In this lab, you'll implement a function that checks if a value is a boolean."
+        ]
+      },
       "lab-email-masker": {
         "title": "Build an Email Masker",
         "intro": [
@@ -4514,7 +4520,10 @@
           "Test what you've learned on relational databases with this quiz."
         ]
       },
-      "pexz": { "title": "311", "intro": [] },
+      "lecture-understanding-bash-scripting": {
+        "title": "Understanding Bash Scripting",
+        "intro": ["Learn about Bash Scripting in these lectures."]
+      },
       "workshop-bash-five-programs": {
         "title": "Build Five Programs",
         "intro": [

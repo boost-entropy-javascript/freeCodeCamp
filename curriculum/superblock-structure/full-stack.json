@@ -625,6 +625,9 @@
               "dashedName": "workshop-calculator"
             },
             {
+              "dashedName": "lab-boolean-check"
+            },
+            {
               "dashedName": "lab-email-masker"
             },
             {
@@ -1427,6 +1430,9 @@
           "dashedName": "bash-scripting",
           "comingSoon": true,
           "blocks": [
+            {
+              "dashedName": "lecture-understanding-bash-scripting"
+            },
             {
               "dashedName": "workshop-bash-five-programs"
             },
