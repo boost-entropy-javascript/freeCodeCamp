@@ -1229,6 +1229,9 @@
               "dashedName": "lab-music-shopping-cart-page"
             },
             {
+              "dashedName": "lab-photography-exhibit"
+            },
+            {
               "dashedName": "review-css-libraries-and-frameworks"
             },
             {
@@ -1496,6 +1499,9 @@
           "dashedName": "git",
           "comingSoon": true,
           "blocks": [
+            {
+              "dashedName": "lecture-working-with-nano"
+            },
             {
               "dashedName": "workshop-castle"
             },
