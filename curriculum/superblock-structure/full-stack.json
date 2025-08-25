@@ -824,6 +824,9 @@
               "dashedName": "lab-book-organizer"
             },
             {
+              "dashedName": "lab-sorted-index-finder"
+            },
+            {
               "dashedName": "review-javascript-higher-order-functions"
             },
             {
@@ -1243,7 +1246,6 @@
         },
         {
           "dashedName": "css-libraries-and-frameworks",
-          "comingSoon": true,
           "blocks": [
             {
               "dashedName": "lecture-working-with-css-libraries-and-frameworks"
