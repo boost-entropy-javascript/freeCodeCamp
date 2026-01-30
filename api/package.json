@@ -4,7 +4,7 @@
     "url": "https://github.com/freeCodeCamp/freeCodeCamp/issues"
   },
   "dependencies": {
-    "@aws-sdk/client-ses": "3.971.0",
+    "@aws-sdk/client-ses": "3.974.0",
     "@fastify/accepts": "5.0.4",
     "@fastify/cookie": "11.0.2",
     "@fastify/csrf-protection": "7.1.0",
@@ -13,7 +13,7 @@
     "@fastify/swagger-ui": "5.2.4",
     "@fastify/type-provider-typebox": "6.1.0",
     "@freecodecamp/shared": "workspace:*",
-    "@growthbook/growthbook": "1.6.2",
+    "@growthbook/growthbook": "1.6.3",
     "@prisma/client": "6.19.2",
     "@sentry/node": "9.47.1",
     "ajv": "8.17.1",
