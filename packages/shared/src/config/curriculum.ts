@@ -67,6 +67,7 @@ export enum SuperBlocks {
   CssAnimations = 'css-animations',
   LearnPythonForBeginners = 'learn-python-for-beginners',
   IntroductionToAlgorithmsAndDataStructures = 'introduction-to-algorithms-and-data-structures',
+  LearnOOPWithPython = 'learn-oop-with-python',
   LearnRAGAndMCPFundamentals = 'learn-rag-mcp-fundamentals',
   IntroductionToPrecalculus = 'introduction-to-precalculus',
   IntroductionToBash = 'introduction-to-bash',
@@ -75,7 +76,17 @@ export enum SuperBlocks {
   LearnSQLAndBash = 'learn-sql-and-bash',
   IntroductionToNano = 'introduction-to-nano',
   IntroductionToGitAndGithub = 'introduction-to-git-and-github',
-  LearnPromptingFundamentals = 'learn-prompting-fundamentals'
+  LearnPromptingFundamentals = 'learn-prompting-fundamentals',
+  IntroductionToPythonBasics = 'introduction-to-python-basics',
+  LearnPythonLoopsAndSequences = 'learn-python-loops-and-sequences',
+  LearnPythonDictionariesAndSets = 'learn-python-dictionaries-and-sets',
+  LearnErrorHandlingInPython = 'learn-error-handling-in-python',
+  LearnPythonClassesAndObjects = 'learn-python-classes-and-objects',
+  IntroductionToOOPInPython = 'introduction-to-oop-in-python',
+  IntroductionToLinearDataStructuresInPython = 'introduction-to-linear-data-structures-in-python',
+  LearnAlgorithmsInPython = 'learn-algorithms-in-python',
+  LearnGraphsAndTreesInPython = 'learn-graphs-and-trees-in-python',
+  LearnDynamicProgrammingInPython = 'learn-dynamic-programming-in-python'
 }
 
 export const languageSuperBlocks = [
@@ -228,6 +239,7 @@ export const superBlockStages: StageMap = {
     SuperBlocks.CssAnimations,
     SuperBlocks.LearnPythonForBeginners,
     SuperBlocks.IntroductionToAlgorithmsAndDataStructures,
+    SuperBlocks.LearnOOPWithPython,
     SuperBlocks.LearnRAGAndMCPFundamentals,
     SuperBlocks.IntroductionToPrecalculus,
     SuperBlocks.IntroductionToBash,
@@ -236,7 +248,17 @@ export const superBlockStages: StageMap = {
     SuperBlocks.LearnSQLAndBash,
     SuperBlocks.IntroductionToNano,
     SuperBlocks.IntroductionToGitAndGithub,
-    SuperBlocks.LearnPromptingFundamentals
+    SuperBlocks.LearnPromptingFundamentals,
+    SuperBlocks.IntroductionToPythonBasics,
+    SuperBlocks.LearnPythonLoopsAndSequences,
+    SuperBlocks.LearnPythonDictionariesAndSets,
+    SuperBlocks.LearnErrorHandlingInPython,
+    SuperBlocks.LearnPythonClassesAndObjects,
+    SuperBlocks.IntroductionToOOPInPython,
+    SuperBlocks.IntroductionToLinearDataStructuresInPython,
+    SuperBlocks.LearnAlgorithmsInPython,
+    SuperBlocks.LearnGraphsAndTreesInPython,
+    SuperBlocks.LearnDynamicProgrammingInPython
   ]
 };
 

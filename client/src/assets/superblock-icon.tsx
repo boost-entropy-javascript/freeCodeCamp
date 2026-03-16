@@ -90,6 +90,7 @@ const iconMap = {
   [SuperBlocks.RelationalDbV9]: DatabaseIcon,
   [SuperBlocks.BackEndDevApisV9]: APIIcon,
   [SuperBlocks.FullStackDeveloperV9]: Code,
+  [SuperBlocks.LearnOOPWithPython]: PythonIcon,
   [SuperBlocks.LearnRAGAndMCPFundamentals]: Code,
   [SuperBlocks.IntroductionToBash]: Code,
   [SuperBlocks.IntroductionToSQLAndPostgreSQL]: DatabaseIcon,
@@ -97,7 +98,17 @@ const iconMap = {
   [SuperBlocks.LearnSQLAndBash]: DatabaseIcon,
   [SuperBlocks.IntroductionToNano]: Code,
   [SuperBlocks.IntroductionToGitAndGithub]: Code,
-  [SuperBlocks.LearnPromptingFundamentals]: Clipboard
+  [SuperBlocks.LearnPromptingFundamentals]: Clipboard,
+  [SuperBlocks.IntroductionToPythonBasics]: PythonIcon,
+  [SuperBlocks.LearnPythonLoopsAndSequences]: PythonIcon,
+  [SuperBlocks.LearnPythonDictionariesAndSets]: PythonIcon,
+  [SuperBlocks.LearnErrorHandlingInPython]: PythonIcon,
+  [SuperBlocks.LearnPythonClassesAndObjects]: PythonIcon,
+  [SuperBlocks.IntroductionToOOPInPython]: PythonIcon,
+  [SuperBlocks.IntroductionToLinearDataStructuresInPython]: PythonIcon,
+  [SuperBlocks.LearnAlgorithmsInPython]: PythonIcon,
+  [SuperBlocks.LearnGraphsAndTreesInPython]: PythonIcon,
+  [SuperBlocks.LearnDynamicProgrammingInPython]: PythonIcon
 };
 
 type SuperBlockIconProps = {
