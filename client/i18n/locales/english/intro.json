@@ -952,50 +952,50 @@
     ],
     "note": "",
     "blocks": {
-      "learn-python-setup-first-steps": {
-        "title": "Setup & First Steps",
+      "python-setup-first-steps": {
+        "title": "Python Setup & First Steps",
         "intro": [
           "In these videos, popular programming instructor Mike Dane will introduce you to Python and show you how to setup your local environment."
         ]
       },
-      "learn-python-core-primitives": {
-        "title": "Core Primitives: Variables, Types, Basic I/O",
+      "core-primitives-in-python": {
+        "title": "Core Primitives in Python",
         "intro": [
           "In these videos, you will learn about variables, data types, strings, numbers, and getting input from the user."
         ]
       },
-      "learn-python-small-projects-basics": {
-        "title": "Small Projects: Using Basics",
+      "small-python-projects": {
+        "title": "Small Python Projects",
         "intro": [
           "In these videos, you will practice what you have learned so far by building a basic calculator app and mad libs game."
         ]
       },
-      "learn-python-data-structures": {
-        "title": "Data Structures: Lists and Tuples",
+      "lists-and-tuples": {
+        "title": "Lists and Tuples",
         "intro": [
           "In these videos, you will learn about lists, tuples and common operations."
         ]
       },
-      "learn-python-control-flow-functions": {
+      "control-flow-and-functions-in-python": {
         "title": "Control Flow and Functions",
         "intro": [
           "In these videos, you will learn how to control the flow of your programs with if statements. You will also learn how to write reusable code with functions."
         ]
       },
-      "learn-python-projects-loops": {
+      "dictionaries-and-loops": {
         "title": "Dictionaries and Loops",
         "intro": [
           "In these videos, you will learn how to work with dictionaries and various loops include the while and for loops."
         ]
       },
-      "learn-python-practical-errors-files": {
-        "title": "Practical Python: Errors, Files and Modules",
+      "error-handling-files-and-modules-in-python": {
+        "title": "Error Handling, Files, and Modules",
         "intro": [
           "In these videos, you will learn how to handle errors gracefully, read and write to files, and organize your code with modules and external packages."
         ]
       },
-      "learn-python-oop": {
-        "title": "Object Oriented Programming",
+      "object-oriented-programming-with-python": {
+        "title": "Object-Oriented Programming with Python",
         "intro": [
           "In these videos, you will learn about object-oriented programming by creating classes and objects. You will practice these skills by building a multiple choice quiz application."
         ]
@@ -1444,7 +1444,7 @@
   "learn-oop-with-python": {
     "title": "Learn OOP with Python",
     "summary": [
-      "In this video course, you learn about object-oriented programming using Python."
+      "In this video course, you will learn about object-oriented programming using Python."
     ],
     "intro": [
       "Object-Oriented Programming (OOP) is a programming paradigm based on the concept of objects, which can contain data and code to manipulate that data. This course introduces the key principles of OOP, including classes, objects, inheritance, and shows how to apply them in practice."
@@ -1482,7 +1482,7 @@
       "lecture-introduction-to-python": {
         "title": "Introduction to Python",
         "intro": [
-          "In these lessons, you will learn what Python is, how to set up your development environment."
+          "In these lessons, you will learn what Python is and how to set up your development environment."
         ]
       },
       "lecture-understanding-variables-and-data-types": {
@@ -1587,7 +1587,7 @@
       "lecture-working-with-loops-and-sequences": {
         "title": "Working with Loops and Sequences",
         "intro": [
-          "Learn about Working with Loops and Sequences in these lessons."
+          "Learn about working with loops and sequences in these lessons."
         ]
       },
       "workshop-pin-extractor": {
@@ -1704,7 +1704,7 @@
     "blocks": {
       "lecture-classes-and-objects": {
         "title": "Classes and Objects",
-        "intro": ["Learn about Classes and Objects in these lessons."]
+        "intro": ["Learn about classes and objects in these lessons."]
       },
       "workshop-musical-instrument-inventory": {
         "title": "Build a Musical Instrument Inventory",
@@ -1758,7 +1758,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "Understanding Object Oriented Programming and Encapsulation",
         "intro": [
-          "Learn about Understanding Object Oriented Programming and Encapsulation in these lessons."
+          "Learn about understanding object oriented programming and encapsulation in these lessons."
         ]
       },
       "workshop-salary-tracker": {
@@ -1776,7 +1776,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "Understanding Inheritance and Polymorphism",
         "intro": [
-          "Learn about Understanding Inheritance and Polymorphism in these lessons."
+          "Learn about understanding inheritance and polymorphism in these lessons."
         ]
       },
       "workshop-media-catalogue": {
@@ -1787,7 +1787,7 @@
       },
       "lecture-understanding-abstraction": {
         "title": "Understanding Abstraction",
-        "intro": ["Learn about Understanding Abstraction in these lessons."]
+        "intro": ["Learn about understanding abstraction in these lessons."]
       },
       "workshop-discount-calculator": {
         "title": "Build a Discount Calculator",
@@ -1832,7 +1832,7 @@
       "lecture-working-with-common-data-structures": {
         "title": "Working with Common Data Structures",
         "intro": [
-          "Learn about Working with Common Data Structures in these lessons."
+          "Learn about working with common data structures in these lessons."
         ]
       },
       "workshop-linked-list-class": {
@@ -5679,6 +5679,12 @@
           "Before you are quizzed on Algorithms, you should review what you've learned about searching and sorting algorithms."
         ]
       },
+      "quiz-searching-and-sorting-algorithms-js": {
+        "title": "Searching and Sorting Algorithms Quiz",
+        "intro": [
+          "Test your knowledge of searching and sorting algorithms with this quiz."
+        ]
+      },
       "lecture-understanding-graphs-and-trees-js": {
         "title": "Understanding Graphs and Trees",
         "intro": [
@@ -6213,7 +6219,7 @@
       "lecture-introduction-to-python": {
         "title": "Introduction to Python",
         "intro": [
-          "In these lessons, you will learn what Python is, how to set up your development environment."
+          "In these lessons, you will learn what Python is and how to set up your development environment."
         ]
       },
       "lecture-understanding-variables-and-data-types": {
@@ -6308,7 +6314,7 @@
       "lecture-working-with-loops-and-sequences": {
         "title": "Working with Loops and Sequences",
         "intro": [
-          "Learn about Working with Loops and Sequences in these lessons."
+          "Learn about working with loops and sequences in these lessons."
         ]
       },
       "workshop-pin-extractor": {
@@ -6395,7 +6401,7 @@
       },
       "lecture-classes-and-objects": {
         "title": "Classes and Objects",
-        "intro": ["Learn about Classes and Objects in these lessons."]
+        "intro": ["Learn about classes and objects in these lessons."]
       },
       "workshop-musical-instrument-inventory": {
         "title": "Build a Musical Instrument Inventory",
@@ -6437,7 +6443,7 @@
       "lecture-understanding-object-oriented-programming-and-encapsulation": {
         "title": "Understanding Object Oriented Programming and Encapsulation",
         "intro": [
-          "Learn about Understanding Object Oriented Programming and Encapsulation in these lessons."
+          "Learn about understanding object oriented programming and encapsulation in these lessons."
         ]
       },
       "workshop-salary-tracker": {
@@ -6455,7 +6461,7 @@
       "lecture-understanding-inheritance-and-polymorphism": {
         "title": "Understanding Inheritance and Polymorphism",
         "intro": [
-          "Learn about Understanding Inheritance and Polymorphism in these lessons."
+          "Learn about understanding inheritance and polymorphism in these lessons."
         ]
       },
       "workshop-media-catalogue": {
@@ -6466,7 +6472,7 @@
       },
       "lecture-understanding-abstraction": {
         "title": "Understanding Abstraction",
-        "intro": ["Learn about Understanding Abstraction in these lessons."]
+        "intro": ["Learn about understanding abstraction in these lessons."]
       },
       "workshop-discount-calculator": {
         "title": "Build a Discount Calculator",
@@ -6501,7 +6507,7 @@
       "lecture-working-with-common-data-structures": {
         "title": "Working with Common Data Structures",
         "intro": [
-          "Learn about Working with Common Data Structures in these lessons."
+          "Learn about working with common data structures in these lessons."
         ]
       },
       "workshop-linked-list-class": {
@@ -9898,7 +9904,7 @@
     "title": "Full-Stack Open",
     "intro": ["A good intro is to be added here."],
     "blocks": {
-      "cat-blog-page": {
+      "workshop-blog-page": {
         "title": "Build a Cat Blog Page",
         "intro": [
           "In this workshop, you will build an HTML only blog page using semantic elements including the <code>main</code>, <code>nav</code>, <code>article</code> and <code>footer</code> elements."
