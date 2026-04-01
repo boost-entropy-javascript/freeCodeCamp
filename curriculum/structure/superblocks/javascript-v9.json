@@ -326,7 +326,6 @@
         },
         {
           "dashedName": "graphs-and-trees",
-          "comingSoon": true,
           "blocks": [
             "lecture-understanding-graphs-and-trees-js",
             "workshop-shortest-path-algorithm-js",
@@ -340,7 +339,6 @@
         },
         {
           "dashedName": "dynamic-programming",
-          "comingSoon": true,
           "blocks": [
             "lecture-understanding-dynamic-programming-js",
             "lab-nth-fibonacci-number-js",
