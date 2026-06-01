@@ -38,6 +38,7 @@
           "blocks": [
             "lecture-understanding-how-http-dns-tcpip-work",
             "lecture-understanding-the-http-request-response-model",
+            "review-http-and-the-web-standards-model",
             "quiz-http-and-the-web-standards-model"
           ]
         },
@@ -59,7 +60,7 @@
         {
           "dashedName": "express-middleware",
           "comingSoon": true,
-          "blocks": []
+          "blocks": ["quiz-express-middleware"]
         },
         {
           "dashedName": "error-handling-in-express",
